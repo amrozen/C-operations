@@ -7,17 +7,15 @@ This project is a menu-driven C program that demonstrates fundamental programmin
 - **Data structures**: dynamic user database with linked lists for managing users, TV series, and episodes.  
 
 
-## 🚀 Build & Run
-You can compile and run the program using the included makefile.
-### Using Makefile
+## 🚀 Build & Run  
+```bash
+gcc main.c -o totalProject
+./totalProject
+```
+You can also compile and run the program using the included makefile.
 ```bash
 make      
 make run   
 make clean  
 ```
 
-If you don't want to use the make file, compile with: 
-```bash
-gcc main.c -o totalProject
-./totalProject
-```
